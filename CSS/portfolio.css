@@ -382,11 +382,29 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 /* Section */
@@ -721,14 +739,6 @@ max-width: 100%;
   max-width: 100%;
 }
 
-.header .container {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .header-utilus {
   display: flex;
 }
@@ -1019,14 +1029,6 @@ ul {
 } */
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .works-content {
