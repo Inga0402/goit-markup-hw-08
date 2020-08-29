@@ -18,7 +18,7 @@
     display: flex;
 }
 
-.auth-nav-link {
+.auth-nav{
     display: none;  
 }
 
@@ -80,7 +80,6 @@ ul {
 .menu-nav-list .menu-nav-list-item-link:hover {
     color: $accent-color;
 }
-
 
 .auth-nav-link{
     padding-top: 32px;

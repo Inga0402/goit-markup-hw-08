@@ -15,56 +15,62 @@
 
     <!--Шапка сайтa-->
     <header class="header">
-        <div class="container">
-            <nav class="navigation">
-                <a class="logo" href="index.html" lang="en"><span class="logo-accent"> Web </span> Studio</a>
-                <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-contaoner" data-menu-button></button>
-                <svg width="40" height="40" aria-label="Переключатель мобильного меню"></svg>
-                <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
-                <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
-                <ul class="menu-nav-list">
-                    <li class="menu-nav-list-item">
-                        <a class="menu-nav-list-item-link current" href="./index.html ">Студия</a></li>
-                    <li class="menu-nav-list-item">
-                        <a class="menu-nav-list-item-link" href="./portfolio.html" >Портфолио</a></li>
-                    <li class="menu-nav-list-item">
-                        <a class="menu-nav-list-item-link" href="" >Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="header-utilus">
-                <ul class="auth-nav">
-                    <li class="auth-nav-list-item">
-                        <a class="auth-nav-link" href="mailto:info@devstudio.com">
-                            <svg class="auth-nav-icon" width="16" height="11.2">
-                                <use href="./images/sprite.svg#icon-envelope"> </use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="auth-nav-list-item">
-                        <a class="auth-nav-link" href="tel:+380961111111">
-                            <svg class="auth-nav-icon" width="10" height="14.94">
-                                <use href="./images/sprite.svg#icon-smartphone"> </use>
-                            </svg>
-                            +38 096 111 11 11</a>
-                    </li>
-                </ul>
+        <div class="container header-container">
+            <div class="menu-wrapper">
+                <nav class="navigation">
+                    <a class="logo" href="index.html" lang="en"><span class="logo-accent"> Web </span> Studio</a>
+                    
+                    <button type="button" class="menu-btn is-open" data-menu-button aria-expanded="false" aria-controls="menu-container">
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                                  <use class="close-icon" href="./images/sprite.svg#close-icon"></use>
+                                    <use class= "menu-icon" href="./images/sprite.svg#menu-icon"></use> 
+                </svg>
+                </button>  
+                    <ul class="menu-nav-list">
+                        <li class="menu-nav-list-item">
+                            <a class="menu-nav-list-item-link current" href="./index.html ">Студия</a></li>
+                        <li class="menu-nav-list-item">
+                            <a class="menu-nav-list-item-link" href="./portfolio.html" >Портфолио</a></li>
+                        <li class="menu-nav-list-item">
+                            <a class="menu-nav-list-item-link" href="" >Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-utilus">
+                    <ul class="auth-nav">
+                        <li class="auth-nav-list-item">
+                            <a class="auth-nav-link" href="mailto:info@devstudio.com">
+                                <svg class="auth-nav-icon" width="16" height="11.2">
+                                    <use href="./images/sprite.svg#icon-envelope"> </use>
+                                </svg>
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="auth-nav-list-item">
+                            <a class="auth-nav-link" href="tel:+380961111111">
+                                <svg class="auth-nav-icon" width="10" height="14.94">
+                                    <use href="./images/sprite.svg#icon-smartphone"> </use>
+                                </svg>
+                                +38 096 111 11 11</a>
+                        </li>
+                    </ul>
+            </div> 
+                  
             </div>
         </div>
     </header>
 
     <main>
         <!-- Герой! -->
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="block-hero">
                 <h1 class="hero-title"> Эффективные решения<br>
                     для вашего бизнеса</h1>
                 <button type="button" class="service-btn" data-modal-open>Заказать услугу</button>
             </div>
-        </section>
+        </section> -->
 
         <!--Преимущества-->
-        <section class="section-advantages">
+        <!-- <section class="section-advantages">
             <div class="container">
                 <h2 hidden>Прeимущества</h2>
                 <ul class="advantages-list">
@@ -128,8 +134,8 @@
                     
                     <div class="what-we-are-doing-picture">
                         <img src="./images/box/box1.jpg" alt="ноутбук" width="370" height="294"></div>
-                    <!-- <div class="background-item"> -->
-                    <h3 class="section-title-item">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
+                     <div class="background-item"> -->
+                    <!-- <h3 class="section-title-item">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
                 </li>
                 <li class="what-we-are-doing-picture">
                     <img src="./images/box/box2.jpg" alt="смартофон" width="370" height="294">
@@ -141,9 +147,9 @@
                 </li>
             </ul>
         </div>
-        </section>
+        </section> --> 
         <!--Команда-->
-        <section class="our-team">
+        <!-- <section class="our-team">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="our-team-list list">
@@ -308,9 +314,9 @@
                         </ul>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!--Клиенты-->
-        <section class="clients">
+        <!-- <section class="clients">
             <div class="container">
                 <h2 class="clients-title title">Постоянные клиенты</h2>
                 <ul class="clients-list list">
@@ -365,10 +371,10 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </main> -->
 
     <!-- Футер -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="page-footer">
             <div class="container">
                 <div class="address">
@@ -447,12 +453,13 @@
         </div>
             </div>
         </div>
-    </footer>
-         <div class="backdrop is-hidden" data-modal>
-             <!-- <div class="modal-form-close-wrapper"> -->
+    </footer> -->
+
+         <!-- <div class="backdrop is-hidden" data-modal>
+             <div class="modal-form-close-wrapper"> -->
            
        
-                <form action="#" class="modal-form">
+                <!-- <form action="#" class="modal-form">
                    
                     <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
                     <button  type="button" class="modal-close-btn" data-modal-close>
@@ -503,7 +510,7 @@
                 </label>
                 <button type="submit" class="modal-form-btn">Отправить</button>
                 </form>
-            </div>
+            </div> --> 
     
          
     <script src="./js/menu.js"></script>

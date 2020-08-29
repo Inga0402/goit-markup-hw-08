@@ -1,11 +1,20 @@
  /* Section */
- .section-title{
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-align: center;
-    padding-top: 94px;
-}
+//  .section-title{
+//     font-size: 36px;
+//     line-height: 1.16;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     color: #212121;
+//     text-align: center;
+//     padding-top: 94px;
+// }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
